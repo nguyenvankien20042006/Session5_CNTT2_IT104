@@ -1,0 +1,51 @@
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container chính */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #d1d5db; 
+  text-align: center;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Content gồm Menu + Main */
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* Menu */
+.menu {
+  background-color: #1e3a8a; 
+  color: white;
+  padding: 16px;
+  width: 200px;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  background-color: white;
+  padding: 24px;
+}
+
+/* Footer */
+.footer {
+  background-color: #d1d5db; 
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}

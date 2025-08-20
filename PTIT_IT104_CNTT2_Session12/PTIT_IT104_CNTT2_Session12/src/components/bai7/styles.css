@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container chính */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #cbd5e1; /* xám nhạt */
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background: #94a3b8; /* xám đậm */
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Content gồm Menu + Main + Article */
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* Menu */
+.menu {
+  background: #22c55e; /* xanh lá */
+  color: white;
+  padding: 16px;
+  width: 180px;
+  text-align: center;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  background: #fee2e2; /* hồng nhạt */
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* Cart */
+.cart {
+  background: white;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+/* Article */
+.article {
+  background: #93c5fd; /* xanh dương nhạt */
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
