@@ -1,0 +1,45 @@
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.radio-group label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
