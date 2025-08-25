@@ -1,0 +1,14 @@
+.detail-post {
+  margin-bottom: 15px;
+}
+
+.detail-post p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.detail-post hr {
+  margin-top: 10px;
+  border: 0;
+  border-top: 1px solid #aaa;
+}
