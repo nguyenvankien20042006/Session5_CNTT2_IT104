@@ -1,0 +1,98 @@
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+/* Primary */
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Secondary */
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.btn-secondary:hover {
+  background-color: #5c636a;
+}
+
+/* Success */
+.btn-success {
+  background-color: #198754;
+  color: white;
+}
+.btn-success:hover {
+  background-color: #157347;
+}
+
+/* Warning */
+.btn-warning {
+  background-color: #ffc107;
+  color: black;
+}
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+/* Danger */
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+/* Info */
+.btn-info {
+  background-color: #0dcaf0;
+  color: black;
+}
+.btn-info:hover {
+  background-color: #31d2f2;
+}
+
+/* Light */
+.btn-light {
+  background-color: #f8f9fa;
+  color: black;
+  border: 1px solid #dee2e6;
+}
+.btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Dark */
+.btn-dark {
+  background-color: #212529;
+  color: white;
+}
+.btn-dark:hover {
+  background-color: #1c1f23;
+}
+
+/* Link */
+.btn-link {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+.btn-link:hover {
+  color: #0a58ca;
+}
