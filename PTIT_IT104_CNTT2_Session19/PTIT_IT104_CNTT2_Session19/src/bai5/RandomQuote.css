@@ -1,0 +1,32 @@
+.quote-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.quote-container h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,35 @@
+.login-container {
+  width: 250px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-container button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
